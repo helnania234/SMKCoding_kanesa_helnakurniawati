@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Cash Class</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_tools">Pengaturan</string>
+    <string name="menu_about">Tentang Aplikasi</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_masuk">Kas Masuk</string>
+    <string name="title_keluar">Kas Keluar</string>
+    <string name="title_siswa">Siswa</string>
+    <string name="close">Keluar</string>
+    <string name="bendahara">Bendahara</string>
+    <string name="WaliKelas">Wali Kelas</string>
+    <string name="kelas">Kelas</string>
+    <string name="biaya">Biaya Per Siswa</string>
+    <string name="btnSimpan">Simpan</string>
+    <string name="Vbiaya">1000</string>
+    <string-array name="hari">
+        <item>Perhari</item>
+        <item>Minggu</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+    </string-array>
+</resources>
