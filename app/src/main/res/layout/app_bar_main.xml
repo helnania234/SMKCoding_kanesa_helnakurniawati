@@ -31,6 +31,6 @@
             android:layout_marginRight="15dp"
             app:srcCompat="@android:drawable/ic_input_add"
             android:layout_gravity="bottom|end"
-        />
+            />
 
 </com.google.android.material.circularreveal.coordinatorlayout.CircularRevealCoordinatorLayout>
