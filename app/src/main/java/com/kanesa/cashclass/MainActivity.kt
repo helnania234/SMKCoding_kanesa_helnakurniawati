@@ -18,28 +18,28 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private lateinit var textMessage: TextView
-    private val onNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
-        when (item.itemId) {
-            R.id.navigation_beranda -> {
-                textMessage.setText(R.string.title_beranda)
-                return@OnNavigationItemSelectedListener true
+    private val onNavigationItemSelectedListener =
+        BottomNavigationView.OnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.navigation_beranda -> {
+                    textMessage.setText(R.string.title_beranda)
+                    return@OnNavigationItemSelectedListener true
+                }
+                R.id.navigation_masuk -> {
+                    textMessage.setText(R.string.title_masuk)
+                    return@OnNavigationItemSelectedListener true
+                }
+                R.id.navigation_keluar -> {
+                    textMessage.setText(R.string.title_keluar)
+                    return@OnNavigationItemSelectedListener true
+                }
+                R.id.navigation_siswa -> {
+                    textMessage.setText(R.string.title_siswa)
+                    return@OnNavigationItemSelectedListener true
+                }
             }
-            R.id.navigation_masuk -> {
-                textMessage.setText(R.string.title_masuk)
-                return@OnNavigationItemSelectedListener true
-            }
-            R.id.navigation_keluar -> {
-                textMessage.setText(R.string.title_keluar)
-                return@OnNavigationItemSelectedListener true
-            }
-            R.id.navigation_siswa -> {
-                textMessage.setText(R.string.title_siswa)
-                return@OnNavigationItemSelectedListener true
-            }
+            false
         }
-        false
-    }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

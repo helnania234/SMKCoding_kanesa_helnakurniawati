@@ -13,14 +13,11 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Pegaturan">
-        </activity>
-        <activity android:name=".Siswa">
-        </activity>
-        <activity android:name=".KasKeluar">
-        </activity>
-        <activity android:name=".KasMasuk">
-        </activity>
+        <activity android:name=".Pegaturan"/>
+        <activity android:name=".Siswa"/>
+        <activity android:name=".KasKeluar"/>
+        <activity android:name=".KasMasuk"/>
+        <activity android:name=".Beranda"/>
         <activity
                 android:name=".MainActivity"
                 android:label="@string/app_name"
