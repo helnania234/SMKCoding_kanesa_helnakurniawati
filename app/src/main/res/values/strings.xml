@@ -20,6 +20,8 @@
     <string name="biaya">Biaya Per Siswa</string>
     <string name="btnSimpan">Simpan</string>
     <string name="Vbiaya">1000</string>
+    <string name="jumlah">jumlah</string>
+    <string name="nama">nama</string>
     <string-array name="hari">
         <item>Perhari</item>
         <item>Minggu</item>
