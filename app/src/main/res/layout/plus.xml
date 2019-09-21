@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -9,7 +10,7 @@
             android:id="@+id/Kas_Masuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/menu_tools"
+            android:text="@string/kasMasuk"
             android:textStyle="bold"
             android:textSize="30sp"
             android:textAlignment="center"
@@ -54,27 +55,28 @@
                 android:layout_height="wrap_content">
             <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/kelas"
-                    android:hint="@string/kelas"
-                    android:text="@string/kelas"
-                    android:maxLines="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:hint="@string/kelas"
+                    android:maxLines="1"
+                    android:text="@string/kelas" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-                android:layout_margin="@dimen/margin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/biaya"
-                    android:hint="@string/biaya"
-                    android:text="@string/Vbiaya"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
-                    android:maxLines="1"
-                    />
-        </com.google.android.material.textfield.TextInputLayout>
+                    android:layout_margin="@dimen/margin">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/biaya"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/biaya"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:text="@string/Vbiaya" />
+            </com.google.android.material.textfield.TextInputLayout>
+
 
         <com.google.android.material.textfield.TextInputLayout
                 android:layout_margin="@dimen/margin"
@@ -97,4 +99,18 @@
                 android:textColor="@color/white"
                 />
     </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/close"
+            android:layout_width="44dp"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
 </RelativeLayout>

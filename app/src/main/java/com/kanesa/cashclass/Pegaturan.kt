@@ -1,5 +1,6 @@
 package com.kanesa.cashclass
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -11,6 +12,13 @@ class Pegaturan : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pegaturan)
         setSpinner()
+        close.setOnClickListener {
+            keluar()
+        }
+    }
+
+    private fun keluar() {
+        startActivity(Intent(this, MainActivity::class.java))
     }
 
     private fun setSpinner() {
