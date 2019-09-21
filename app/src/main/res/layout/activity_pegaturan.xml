@@ -31,7 +31,6 @@
             <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/bendahara"
                     android:hint="@string/bendahara"
-                    android:text="@string/bendahara"
                     android:layout_width="match_parent"
                     android:maxLines="1"
                     android:layout_height="wrap_content"/>
@@ -43,7 +42,6 @@
                 android:layout_height="wrap_content">
             <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/WaliKelas"
-                    android:text="@string/WaliKelas"
                     android:hint="@string/WaliKelas"
                     android:maxLines="1"
                     android:layout_width="match_parent"
@@ -57,7 +55,6 @@
             <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/kelas"
                     android:hint="@string/kelas"
-                    android:text="@string/kelas"
                     android:maxLines="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -107,5 +104,6 @@
             android:layout_alignParentRight="true"
             android:layout_margin="@dimen/activity_horizontal_margin"
             app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+
         />
 </RelativeLayout>
